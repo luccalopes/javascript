@@ -1,0 +1,5 @@
+Iniciando ao JavaScript
+
+Primeiro, é recomendado que as tags 'script' sejam colocadas no final do corpo do documento, para evitar lentidão de carregamento do site.
+
+Para inserir uma mensagem de alerta em uma página, basta inserir uma tag 'script' no código html, e dentro da tag colocar o comando 'window.alert('mensagem'). Apenas isso irá fazer com que uma mensagem de alerta seja aberta como uma janela pop-up ao carregar o site.
