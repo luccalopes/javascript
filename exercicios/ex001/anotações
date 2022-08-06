@@ -3,3 +3,9 @@ Iniciando ao JavaScript
 Primeiro, é recomendado que as tags 'script' sejam colocadas no final do corpo do documento, para evitar lentidão de carregamento do site.
 
 Para inserir uma mensagem de alerta em uma página, basta inserir uma tag 'script' no código html, e dentro da tag colocar o comando 'window.alert('mensagem'). Apenas isso irá fazer com que uma mensagem de alerta seja aberta como uma janela pop-up ao carregar o site.
+
+Geralmente nos primeiros estudos de JS existem funções que ligam os scripts no código html, e essas funções são criadas em parâmetros das tags no código html. Essa palavra que colocamos dentro das aspas no parâmetro, servirá como uma função dentro da tag de script. Geralmente após a palavra-chave da função colocamos parênteses, sem espaço após a palavra.
+
+Variáveis funcionam basicamente como um extacionamento, servem para armazenar dados, cada variável tem um nome e pode ser preenchida por uma única palavra ou valor. Elas servem para identificar algo dentro do código, podemos somá-las e fazer outras coisas. 
+Elas podem começar com uma letra, um $ ou um _
+Não podem começar com números, é possível usar letras ou números, é possível usar acentos e símbolos, não podem conter espaços e não podem ser palavras já reservadas. Se na variável foi usada ou a palavra começa com letra maiúscula, elas devem ser digitadas exatamente da mesma forma pois faz diferença. A linguagem reconhece apenas exatamente da forma que o código foi construido. É importante escolher nomes bem semânticos para as variáveis, para não causar confusão na hora de analisar o código ou até para mostrar para outra pessoa.
