@@ -13,3 +13,7 @@ O sinal de "+" serve tanto para adição quanto para concatenação. Por isso é
 Podemos usar tanto "Number.parseInt(n)" ou "Number.parseFloat(n). parseInt(n) para números inteiros e parseFloat(n) para números reais, mas isso tudo poderá ser abreviado para apenas Number(n). Os "n" dentro de parênteses deve sempre ser minúsculo.
 
 Podemos usar concatenação também da seguinte forma: usando os sinais de ${} - dentro dos parênteses iremos colocar as variáveis - para o código funcionar corretamente a frase deve conter crases antes de começar e depois de terminar. Na verdade o nome disso é template string.
+
+Para fazer formatação de números, é preciso criar uma variável com o número, e inserir as seguintes configurações: var.toFixed(2) - irá dividir o número em 2 casas decimais - 
+var.toFixed(2).replace('.', ',') - irá substituir o ponto pela vírgula na divisão das casas decimais - 
+var.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'}) - irá formatar o número para um valor representado na moeda brasileira (Real).

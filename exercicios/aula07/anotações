@@ -1,0 +1,18 @@
+Operadores em JavaScript
+
+Os operadores aritméticos básicos em JavaScript são representados da seguinte forma:
+
++ = soma
+- = subtração
+* = multiplicação
+/ = divisão de números reais
+% = divisão do resto dos números inteiros
+** = potência - ao quadrado
+
+Para dar prioridade a uma soma ao invés de uma divisão em JavaScript é igual na matemática comum, basta colocar o valor que irá ser somado dentro de parênteses.
+
+Ordem de precedência de uma expressão aritmética: 
+()
+**
+* / %
++ -
