@@ -1,0 +1,12 @@
+DOM em JS
+
+DOM é a sigla para Document Object Model e funciona basicamente como acesso à raíz de um documento HTML e CSS. O navegador representa uma página da web lendo e interpretando esses documentos, que são códigos e elementos criados pelos desenvolvedores.
+
+O DOM é a interface que conecta a linguagem de programação às páginas em questão, dessa forma podendo fazer alterações e manipulações dinâmicas e atualizações de conteúdo, então o DOM é representado cono uma árvore, tendo suas ramificações de blocos. O DOM representa a estrutura e os componentes da página, e o JavaScript acessa e manipula esses componentes.
+
+Os eventos mais comuns para o uso do DOM é a criação de eventos de interações usando o mouse. Por exemplo quando passamos o mouse por cima de um menu que fica escondido e só aparece quando passamos o mouse por cima, ou clicamos.
+
+Quando movemos o cursor do mouse por cima de um elemento de um site, acontece o evento 'mouseenter', se continuar movendo o mouse por dentro do elemento, o evento 'mousemove' será disparado diversas vezes. Se clicar e segurar o mouse, disparamos o evento 'mousedown', ao soltar será disparado o evento 'mouseup', e quando damos o clique rápido, o evento 'click' é disparado. Quando tiramos o cursor do mouse de cima do elemento, será disparado o evento 'mouseout'.
+
+Para disparar um evento, é necessário criar uma função. Funções são conjuntos de códigos que só serão executadas quando o evento ocorrer.
+Para executar esses códigos só quando o evento ocorrer, o primeiro passo é colocar esse código dentro de um bloco. Blocos em JavaScript são representados pelo conjunto de chaves {}, o código deve estar dentro das chaves. Este bloco deve ser nomeado com 'function', para os códigos serem executados essas 'function' devem ter os nomes das ações a serem disparadas, sempre seguidas de parênteses () ex: 'function ação(){}', opcionalmente podemos colocar parâmetros dentro desses parênteses 
