@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de país</title>
+</head>
+<body>
+    <h1>Verificando o seu país</h1>
+    <input type="text" name="texto1" id="texto1">
+    <input type="button" value="Verificar" onclick="verif()">
+    <div id="res"></div>
+
+    <script>
+        function verif() {
+            var txtv = window.document.getElementById('texto1')
+            var res = window.document.getElementById('res')
+            var país = (txtv.value)
+            res.innerHTML = `O seu país de origem é ${país}<br>`
+            if (país == 'Brasil' || país == 'brasil') {
+                res.innerHTML += 'Você é brasileiro!'
+            } else {
+                res.innerHTML += 'You are gringo!'
+            }
+
+        }
+    </script>
+</body>
+</html>

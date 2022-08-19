@@ -1,0 +1,27 @@
+Condições em JavaScript
+
+As condições acontecem quando o programa está sendo executado, e em determinado momento existe uma bifurcação de decisões, se você escolher uma decisão acontecerá uma coisa, e se tomar outra decisão acontecerá outra coisa.
+
+As condições são representadas pelas estruturas 'if' e 'else', sendo 'if' uma condição e 'else' outra condição. Ao criar uma condição, devemos primeiro colocar o valor dela dentro de parênteses, por exemplo: 
+
+    var agora = new Date()
+    var hora = agora.getHours()
+    console.log(`Agora são exatamente ${hora} horas.`)
+    if (hora < 5) {
+        console.log('Boa madrugada')
+    } else if (hora < 12) {
+        console.log('Bom dia')
+    } else if (hora < 18) {
+        console.log('Boa tarde')
+    } else {
+        console.log('Boa noite')
+    }
+
+Sendo o valor que está dentro de parênteses a condição de 'if' e de 'else if', após os parênteses devemos adicionar um bloco. É considerado bloco tudo o que estiver dentro dos sinais de chaves {}.
+
+Notar que para adicionar a hora e, tempo real em JavaScript, precisamos criar duas variáveis, exemplo:
+
+    var agora = new Date() // vai extrair a data atual
+    var hora = agora.getHours() // com os dados da variavel agora, irá complementar com as horas
+
+Não há problema nenhum em reproduzir variáveis com esse mesmo nome em algum código.
