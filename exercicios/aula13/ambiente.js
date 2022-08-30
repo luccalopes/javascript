@@ -26,6 +26,6 @@ console.log('tudo bem?')
 console.log('tudo bem?')
 */
 
-for(var c = 1;c <= 5;c++) {
+for(var c = 1;c <= 10;c++) {
     console.log(c)
 }
