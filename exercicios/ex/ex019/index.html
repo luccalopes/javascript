@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Fatorial</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Tabuada</h1>
+        <h1>Cálculo de Fatorial</h1>
     </header>
     <section>
         <div>
-            <p>Número: <input type="number" name="num" id="txtn"> <button onclick="tabuada()">Gerar tabuada</button></p>
+            <h2>Escreva um número (entre 1 e 21) na caixa a seguir e te mostrarei o fatorial.</h2>
+            <p>Número: <input type="number" name="txtn" id="txtn"> <button onclick="fatorial()">Fatorial</button></p>
         </div>
-        <div id="res">
-            <select name="tabuada" id="seltab" size="10"></select> <!--select faz a opção de 'barra de rolagem', size é igual as linhas que serão geradas-->
+        <div id="saida">
+            <p>Preencha os dados acima e aperte o botão.</p>
         </div>
     </section>
     <script src="script.js"></script>
