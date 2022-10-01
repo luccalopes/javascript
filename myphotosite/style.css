@@ -17,11 +17,14 @@ header {
     height: 300px;
     overflow: hidden;
     margin: 25px;
+    object-fit: cover;
 }
+
 
 .smallImg {
     height: 100%;
     cursor: pointer;
+    display: block;
 }
 
 .row {
@@ -31,7 +34,8 @@ header {
 }
 
 #modal_img {
-    width: 60vw;
+    width: 100%;
+    display: block;
 }
 
 .modal {
@@ -65,4 +69,9 @@ header {
 .modal_active{
     visibility: visible;
 
+}
+
+img {
+    width: 50%;
+    height: 50%;
 }
